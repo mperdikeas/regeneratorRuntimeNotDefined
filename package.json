@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel es6 --out-dir es5 --source-maps",
-    "watch": "babel es6 --out-dir es5 --source-maps --watch",
-    "start": "node es5/app.js"
+      "build": "babel es6 --out-dir es5",
+      "start": "node es5/app.js"
   },
   "author": "",
   "license": "ISC",
