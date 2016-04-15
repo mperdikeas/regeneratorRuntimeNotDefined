@@ -1,6 +1,15 @@
     'use strict';
     
     require('babel-polyfill');
+
+console.log(`
+See:
+    
+    http://stackoverflow.com/a/36628148/274677
+
+... for a solution to the problem talked about in the comments section of this file:
+
+`);
     
     /* 
         This is working only in the following situations:
